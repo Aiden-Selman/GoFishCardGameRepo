@@ -14,22 +14,22 @@ namespace GoFishCardGame
         /// <summary>
         /// The spades suit.
         /// </summary>
-        SPADES,
+        SPADES = 1,
 
         /// <summary>
         /// The clubs suit.
         /// </summary>
-        CLUBS,
+        CLUBS = 2,
 
         /// <summary>
         /// The hearts suit.
         /// </summary>
-        HEARTS,
+        HEARTS = 3,
 
         /// <summary>
         /// The diamonds suit.
         /// </summary>
-        DIAMONDS
+        DIAMONDS = 4
 
     }
 }

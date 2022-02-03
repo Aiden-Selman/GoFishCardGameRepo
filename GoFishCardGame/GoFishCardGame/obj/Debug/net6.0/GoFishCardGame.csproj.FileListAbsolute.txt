@@ -1,0 +1,15 @@
+C:\Users\selma_q73t9nx\OneDrive\Coding Projects\Games\GoFishCardGame\GoFishCardGame\bin\Debug\net6.0\GoFishCardGame.exe
+C:\Users\selma_q73t9nx\OneDrive\Coding Projects\Games\GoFishCardGame\GoFishCardGame\bin\Debug\net6.0\GoFishCardGame.deps.json
+C:\Users\selma_q73t9nx\OneDrive\Coding Projects\Games\GoFishCardGame\GoFishCardGame\bin\Debug\net6.0\GoFishCardGame.runtimeconfig.json
+C:\Users\selma_q73t9nx\OneDrive\Coding Projects\Games\GoFishCardGame\GoFishCardGame\bin\Debug\net6.0\GoFishCardGame.dll
+C:\Users\selma_q73t9nx\OneDrive\Coding Projects\Games\GoFishCardGame\GoFishCardGame\bin\Debug\net6.0\ref\GoFishCardGame.dll
+C:\Users\selma_q73t9nx\OneDrive\Coding Projects\Games\GoFishCardGame\GoFishCardGame\bin\Debug\net6.0\GoFishCardGame.pdb
+C:\Users\selma_q73t9nx\OneDrive\Coding Projects\Games\GoFishCardGame\GoFishCardGame\obj\Debug\net6.0\GoFishCardGame.csproj.AssemblyReference.cache
+C:\Users\selma_q73t9nx\OneDrive\Coding Projects\Games\GoFishCardGame\GoFishCardGame\obj\Debug\net6.0\GoFishCardGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\selma_q73t9nx\OneDrive\Coding Projects\Games\GoFishCardGame\GoFishCardGame\obj\Debug\net6.0\GoFishCardGame.AssemblyInfoInputs.cache
+C:\Users\selma_q73t9nx\OneDrive\Coding Projects\Games\GoFishCardGame\GoFishCardGame\obj\Debug\net6.0\GoFishCardGame.AssemblyInfo.cs
+C:\Users\selma_q73t9nx\OneDrive\Coding Projects\Games\GoFishCardGame\GoFishCardGame\obj\Debug\net6.0\GoFishCardGame.csproj.CoreCompileInputs.cache
+C:\Users\selma_q73t9nx\OneDrive\Coding Projects\Games\GoFishCardGame\GoFishCardGame\obj\Debug\net6.0\GoFishCardGame.dll
+C:\Users\selma_q73t9nx\OneDrive\Coding Projects\Games\GoFishCardGame\GoFishCardGame\obj\Debug\net6.0\ref\GoFishCardGame.dll
+C:\Users\selma_q73t9nx\OneDrive\Coding Projects\Games\GoFishCardGame\GoFishCardGame\obj\Debug\net6.0\GoFishCardGame.pdb
+C:\Users\selma_q73t9nx\OneDrive\Coding Projects\Games\GoFishCardGame\GoFishCardGame\obj\Debug\net6.0\GoFishCardGame.genruntimeconfig.cache
