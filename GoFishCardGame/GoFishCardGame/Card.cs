@@ -64,25 +64,38 @@ namespace GoFishCardGame
         /// <exception cref="System.ComponentModel.InvalidEnumArgumentException"></exception>
         public Card(CardSuits cardSuit, CardValues cardValue)
         {
-            if (cardSuit != CardSuits.SPADES || cardSuit != CardSuits.CLUBS || cardSuit != CardSuits.HEARTS || cardSuit != CardSuits.DIAMONDS)
-            {
-                throw new System.ComponentModel.InvalidEnumArgumentException("The value is an invalid enumeration value.");
-            }
-            else
-            {
-                this.cardSuit = cardSuit;
-            }
+            //if (cardSuit != CardSuits.SPADES || cardSuit != CardSuits.CLUBS || cardSuit != CardSuits.HEARTS || cardSuit != CardSuits.DIAMONDS)
+            //{
+            //    throw new System.ComponentModel.InvalidEnumArgumentException("The value is an invalid enumeration value.");
+            //}
+            //else
+            //{
+            //    this.cardSuit = cardSuit;
+            //}
 
-            if (cardValue != CardValues.ONE || cardValue != CardValues.TWO || cardValue != CardValues.THREE || cardValue != CardValues.FOUR || cardValue != CardValues.FIVE
-                || cardValue != CardValues.SIX || cardValue != CardValues.SEVEN || cardValue != CardValues.EIGHT || cardValue != CardValues.NINE || cardValue != CardValues.TEN
-                || cardValue != CardValues.JACK || cardValue != CardValues.QUEEN || cardValue != CardValues.KING || cardValue != CardValues.ACE)
-            {
-                throw new System.ComponentModel.InvalidEnumArgumentException("The value is an invalid enumeration value.");
-            }
-            else
-            {
-                this.cardValue = cardValue;
-            }
+            this.cardSuit = cardSuit;
+
+            //if (cardValue != CardValues.ONE || cardValue != CardValues.TWO || cardValue != CardValues.THREE || cardValue != CardValues.FOUR || cardValue != CardValues.FIVE
+            //    || cardValue != CardValues.SIX || cardValue != CardValues.SEVEN || cardValue != CardValues.EIGHT || cardValue != CardValues.NINE || cardValue != CardValues.TEN
+            //    || cardValue != CardValues.JACK || cardValue != CardValues.QUEEN || cardValue != CardValues.KING || cardValue != CardValues.ACE)
+            //{
+            //    throw new System.ComponentModel.InvalidEnumArgumentException("The value is an invalid enumeration value.");
+            //}
+            //else
+            //{
+            //    this.cardValue = cardValue;
+            //}
+
+            this.cardValue = cardValue;
+        }
+
+        /// <summary>
+        /// Returns a string representation of a card.
+        /// </summary>
+        /// <returns>The string representation of the card.</returns>
+        public override String ToString()
+        {
+            return String.Format("The {0} of {1}", this.cardValue, this.cardSuit);
         }
     }
 }
