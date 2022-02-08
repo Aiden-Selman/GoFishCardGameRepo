@@ -4,13 +4,14 @@ using System.Collections;
 /*
  * Name:  Aiden Selman
  * Created:   2/3/2022
- * Updated:   2/4/2022
+ * Updated:   2/8/2022
  */
 
 int numberOfCardsInHand;
 int numberOfCardsOnTheTable = 52;
-ArrayList allPlayerHands = new ArrayList();
 ArrayList playerHand = new ArrayList();
+List<PlayerHand> players;
+players = new List<PlayerHand>();
 
 
 // Receive input from the keyboard as to how many players will be playing.
@@ -36,11 +37,11 @@ do
         for (int j = 0; j < numberOfCardsInHand; j++)
         {
             Random random = new Random();
-            Card playerCard = new Card((CardSuits)random.Next(1, 5), (CardValues)random.Next(1, 15));
+            PlayingCard playerCard = new PlayingCard((CardSuits)random.Next(1, 5), (CardValues)random.Next(1, 15));
             playerHand.Add(playerCard);
             numberOfCardsOnTheTable--;
         }
-        allPlayerHands.Add(playerHand);
+        players.Add(new PlayerHand());
     }
 }
 
